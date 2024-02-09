@@ -1,35 +1,29 @@
-site_name: Revenue Analytics Help Pages
+site_name: obsidian-mkdocs template
 
 theme:
     name: 'material'
-     features:
-    - navigation.instant
-    - navigation.top
-    - content.code.annotate
-    
     palette:
+
     # Light mode
-    - media: '(prefers-color-scheme: light)'
+    - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue grey
-      accent: light blue
+      primary: pink
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
 
     # Dark mode
-    - media: '(prefers-color-scheme: dark)'
+    - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: light blue
+      primary: pink
+      accent: blue
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
 
 # Extensions
 markdown_extensions:
-  - attr_list
-  - md_in_html
   - footnotes
   # - attr_list
   - pymdownx.arithmatex:
@@ -58,7 +52,6 @@ plugins:
   - search
   - roamlinks
   - blog
-  - glightbox
   - rss:
       match_path: blog/posts/.* 
       date_from_meta:
