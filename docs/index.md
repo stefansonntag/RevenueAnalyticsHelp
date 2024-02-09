@@ -1,3 +1,3 @@
-# Revenue Analytics Help Center
+# Start
 
-Welcome to these pages. Use the side menu to find your topic or search for it with the search bar
+Use the side menu to find your topic or search for it with the search bar
